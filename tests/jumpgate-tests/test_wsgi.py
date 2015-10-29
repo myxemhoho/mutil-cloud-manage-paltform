@@ -17,3 +17,6 @@ class TestWSGI(unittest.TestCase):
 
         self.assertTrue(hasattr(new_api, '__call__'))
         self.assertIsInstance(new_api, falcon.API)
+        
+        
+        
